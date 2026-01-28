@@ -6,5 +6,13 @@ def calculate_risk(rainfall, groundwater):
     else:
         return "Low Risk"
 
+rainfall = int(input("Enter rainfall (mm): "))
+groundwater = int(input("Enter groundwater (%): "))
+
+risk = calculate_risk(rainfall, groundwater)
+print("Drought Risk Level:", risk)
+
+
+
 
 
