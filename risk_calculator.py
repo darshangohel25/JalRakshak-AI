@@ -5,3 +5,6 @@ def calculate_risk(rainfall, groundwater):
         return "Medium Risk"
     else:
         return "Low Risk"
+
+
+
